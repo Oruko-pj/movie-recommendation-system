@@ -13,7 +13,6 @@ This movie recommendation system is designed to provide personalized movie sugge
 - [Usage](#usage)
   - [Data Collection](#data-collection)
   - [Training and Evaluation](#training-and-evaluation)
-  - [User Interface](#user-interface)
 - [Recommendation Models](#recommendation-models)
 - [Evaluation Metrics](#evaluation-metrics)
 - [Project Structure](#project-structure)
@@ -36,12 +35,12 @@ This movie recommendation system is designed to provide personalized movie sugge
 Navigate to the project directory:
 
 
-Copy code
+
 cd movie-recommendation-system
 Install required dependencies:
 
 
-pip install -r requirements.txt
+
 Usage
 
 Data Collection
@@ -49,10 +48,6 @@ Collect and preprocess movie rating data. Ensure data quality and format are com
 Training and Evaluation
 Train collaborative filtering models, including SVD, using the collected data.
 Continuously evaluate model performance using metrics like RMSE to ensure accuracy.
-
-User Interface
-Create a user-friendly interface to interact with the recommendation system.
-Allow users to receive and provide feedback on movie recommendations.
 
 
 Recommendation Models
