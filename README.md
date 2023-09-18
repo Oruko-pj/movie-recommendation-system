@@ -18,14 +18,13 @@ This movie recommendation system is designed to provide personalized movie sugge
 - [Evaluation Metrics](#evaluation-metrics)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Getting Started
 
 ### Prerequisites
 
 - Python 3.6+
-- Dependencies listed in `requirements.txt`
 - Movie rating dataset (e.g., MovieLens dataset)
 
 ### Installation
@@ -36,20 +35,21 @@ This movie recommendation system is designed to provide personalized movie sugge
    git clone https://github.com/yourusername/movie-recommendation-system.git
 Navigate to the project directory:
 
-bash
+
 Copy code
 cd movie-recommendation-system
 Install required dependencies:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Usage
+
 Data Collection
 Collect and preprocess movie rating data. Ensure data quality and format are compatible with the recommendation models.
 Training and Evaluation
 Train collaborative filtering models, including SVD, using the collected data.
 Continuously evaluate model performance using metrics like RMSE to ensure accuracy.
+
 User Interface
 Create a user-friendly interface to interact with the recommendation system.
 Allow users to receive and provide feedback on movie recommendations.
