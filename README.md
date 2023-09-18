@@ -63,12 +63,17 @@ RMSE (Root Mean Squared Error): RMSE is used to measure the accuracy of movie ra
 
 
 Project Structure
-/data: Store movie rating datasets and data preprocessing scripts.
-/models: Implement collaborative filtering models and evaluation scripts.
-/interface: Develop the user interface for interaction.
-/tests: Include unit tests and evaluation scripts.
-/docs: Documentation and project-related files.
-/scripts: Utility scripts and data collection tools.
+data: Store movie rating datasets and data preprocessing scripts.
+
+models: Implement collaborative filtering models and evaluation scripts.
+
+interface: Develop the user interface for interaction.
+
+tests: Include unit tests and evaluation scripts.
+
+docs: Documentation and project-related files.
+
+scripts: Utility scripts and data collection tools.
 
 Contributing
 Contributions to this project are welcome. Please follow the contributing guidelines
